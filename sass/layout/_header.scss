@@ -1,0 +1,98 @@
+.navbar{
+background-color:$blue;
+margin-bottom:$padding - 10px !important;
+font-weight:900!important;
+.row{
+padding-top:$padding;
+}
+i{color:$light-blue;
+padding-right:$padding;
+}
+span{
+a{color:$white;@include transition( color 0.5s) ;
+    vertical-align:top;
+&:hover{color:$light-blue;}
+}
+}
+
+}
+
+
+.navbar-default .navbar-nav {
+	li {
+		.fa {
+			padding-left: $padding - 5px;
+		}
+		.fa-shopping-cart {
+			margin-right: $padding - 5px;
+		}
+	}
+	> li > a {
+		&:hover{
+    color: $red !important;
+    background-color: transparent;
+  }
+	}
+}
+.dropdown-menu {
+   min-width:250px!important;
+  > li > a {
+    
+    padding: 3px 30px !important;
+    line-height: 40px !important;
+	color:lighten($blue, 60%) !important;
+	&:hover{background-color:transparent!important;
+	color:$white !important;}
+  }
+}
+
+   
+	// .nav > li > a { padding: 10px 35px !important;
+ // &:hover, &:focus {
+  // text-decoration: none;
+ // background-color: transparent !important;
+ // }
+ // }
+.affix {
+  background: $white;
+  top: 0;
+  width: 100%;
+  @include transition(  0.5s) ;
+  z-index: 1111;
+  .navbar-text{margin-left:0px !important;}
+  .navbar-brand img {
+    width: 60px;
+    margin-top: -20px;
+    transition: all 0.25s linear;
+  }
+  
+  .navbar-nav span {
+    padding-left: 2px;
+  }
+  .active a{color:$red !important;}
+  a {
+    color: #000000 !important;
+    padding-top: $padding + 25px !important;
+  padding-bottom: $padding + 25px !important;
+  padding-left: $padding + 30px !important;
+  padding-right: $padding + 30px !important;
+    @include transition(  0.5s) ;
+  }
+}
+
+.affix-top 
+{
+
+.navbar-text{margin-left:0px !important;margin-top: 30px;}
+
+img{width:90px;margin-top:-30px;}
+a {
+  padding-top: $padding + 50px !important;
+  padding-bottom: $padding + 50px !important;
+  padding-left: $padding + 30px !important;
+  padding-right: $padding + 30px !important;
+}
+}
+.affix + .container-fluid {
+  padding-top: 95px;
+}

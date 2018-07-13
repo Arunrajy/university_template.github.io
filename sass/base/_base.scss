@@ -1,0 +1,200 @@
+.pic1 {
+  height: 50em;
+  width: 100%;
+  display: table;
+  background: url("../img/img1.jpg ") no-repeat center;
+  background-size: cover;
+  color: $white;
+}
+
+.pic2 {
+  height: 50em;
+  width: 100%;
+  display: table;
+  background: url("../img/img2.jpg ") no-repeat center;
+  background-size: cover;
+  color: $white;
+}
+
+.pic3 {
+  height: 50em;
+  width: 100%;
+  display: table;
+  background: url("../img/img3.jpg ") no-repeat center;
+  background-size: cover;
+  color: $white;
+}
+
+.pic4 {
+  height: 40em;
+  width: 100%;
+  display: table;
+  background: url("../img/img2.jpg ") no-repeat fixed;
+  background-size: cover;
+  color: $white;
+ 
+}
+.pic5 {
+  height: 35em;
+  width: 100%;
+   background-color:$blue;
+  background-size: cover;
+  
+}
+.pic8 {
+  
+  width: 100%;
+   background-color:darken($red, 10%) !important;
+  background-size: cover;
+  color: $white;
+}  
+
+
+#owl-demo .jumbotron , .pic4 .jumbotron, .pic5 #owl-demo2 {
+  background: transparent;
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+#owl-demo .jumbotron {p{padding-top:$padding + 20px !important;}
+a{margin-top:$padding + 20px !important;}}
+
+#owl-demo .owl-controls {
+  position: relative;
+  top: -100px;
+  left: -530px !important;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: transparent !important;
+  border: 2px solid white !important;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  background: transparent !important;
+  color:white !important;
+ 
+  transition: all 0.25s linear;
+}
+
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  transition: all 0.25s linear;
+  background: lighten($grey, 30%) !important;
+  
+}
+.pic5 .owl-prev
+{
+  position: absolute;
+  top: 150px;
+  left: -50px;
+}
+
+.pic5 .owl-next
+ {
+  position: absolute;
+  top: 150px;
+  right: -50px;
+}
+hr{border:$padding - 8px solid $blue !important;width:30px;margin-top:$margin;
+margin-bottom:$margin;}
+.about{
+.jumbotron h1{font-size:$padding + 30px;}
+hr{margin-left:0;margin-top:$margin;
+margin-bottom:$margin;}
+p{font-size:$padding + 10px!important;}
+
+.btn{margin-top:$margin - 15px;
+margin-bottom:$margin - 15px; }
+
+img{margin-top:$margin ;}
+}
+.statistics{
+margin-top:$margin + 20px;
+margin-bottom:$margin + 20px;
+p{margin-top:$margin ;
+margin-bottom:$margin;}
+ .circle { display:table;width: 100px; height: 100px;margin-left:$padding + 69px;border: 3px solid $grey; background-color: $transparent; @include border-radius(50px);
+i{font-size:$padding + 40px;margin-top:$padding + 10px;}
+ }
+.count{font-size:$padding + 30px;font-weight:900;margin-top:$margin - 20px;
+margin-bottom:$margin - 20px; color:$red;}
+
+}
+
+.thumbnail{color:$white;}
+
+
+.latest_news{margin-top:$margin + 20px;
+margin-bottom:$margin + 20px;
+.btn{margin-top:$margin ;
+margin-bottom:$margin;}}
+
+#gmap_canvas {
+  width: auto;
+  height: 500px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.breadcrumb{a{color:$white;}}
+
+
+
+.events {margin-top:$margin + 20px;
+margin-bottom:$margin + 20px;
+.thumbnail{margin-top:$margin;
+margin-bottom:$margin;}
+.btn{margin-top:$margin + 10px;
+margin-bottom:$margin + 10px;}}
+
+
+
+.event-img1{background: url(../img/events1.jpg);}
+.event-img2{background: url(../img/events2.jpg);}
+.event-img3{background: url(../img/events3.jpg);}
+.event-img4{background: url(../img/events4.jpg);}
+.box {
+ 
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+
+
+  background-size: cover;
+  
+  overflow: hidden;
+}
+
+.overlay {
+  background: rgba(13,45,98, 0.75);
+  text-align: center;
+  padding: 97px 0 66px 0;
+  opacity: 0;
+  @include opacity-transition(0.25s);
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.plus {
+  font-family: Helvetica;
+  font-weight: 900;
+  
+  font-size: 96px;
+}
+.caption1{background-color:$blue;padding:$padding - 5px;margin-left:$padding - 25px; margin-right:$padding - 25px;}
+
+#contact{
+margin-top:$margin + 20px;
+margin-bottom:$margin + 20px;
+hr{margin-left:0 !important;}
+.fa{margin-right:$padding;}
+.btn-social-icon{border:1px solid $grey !important;width:40px;height:40px;border-radius:50%;
+
+margin-bottom:$margin - 20px;
+.fa{margin-top:3px;}
+&:hover{color:$white !important;}
+
+}
+.form-group{margin-top:$margin - 30px;
+margin-bottom:$margin - 30px;}
+}

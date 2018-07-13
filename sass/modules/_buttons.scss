@@ -1,0 +1,22 @@
+.btn{border: $padding - 7px solid !important ;}
+.btn-success{
+@include transition(  0.5s) ;border-color:$red !important;
+&:hover{background-color:$white !important;
+border-color:$white;
+color:$red !important;
+@include transition(  0.3s) ;
+}}
+.btn-info{
+@include transition(  0.5s) ;
+&:hover{background-color:$white !important;
+border-color:#fafafa;
+color:$black !important;
+@include transition(  0.3s) ;
+}}
+.btn-warning{
+@include transition(  0.5s) ;border-color:$blue !important;
+&:hover{background-color:$blue !important;
+border-color:$blue !important;
+color:$white !important;
+@include transition(  0.3s) ;
+}}
